@@ -1,3 +1,6 @@
-// Variável para armazenar o valor atual do display
 let displayValue = "";
 
+function addToDisplay(value) {
+   displayValue += value;
+   updateDisplay();
+}
