@@ -22,6 +22,15 @@ function calculate() {
 function clearDisplay() {
    displayValue = "";
    updateDisplay();
+
+function calculate() {
+   try {
+      displayValue = eval(displayValue);
+      updateDisplay();
+   } catch (error) {
+      displayValue = "Erro";
+      updateDisplay();
+   }
 }
 
 window.onload = updateDisplay;
