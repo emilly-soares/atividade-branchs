@@ -10,4 +10,12 @@ function updateDisplay() {
 }
 
 function calculate() {
+   try {
+      displayValue = eval(displayValue);
+      updateDisplay();
+   } catch (error) {
+      displayValue = "Erro";
+      updateDisplay();
+   }
+}
 
