@@ -17,3 +17,35 @@ body {
    padding: 20px;
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
+
+.row {
+   display: flex;
+   justify-content: space-between;
+   margin: 5px;
+}
+
+.button {
+   flex: 1;
+   padding: 15px 0;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   cursor: pointer;
+   font-size: 18px
+}
+
+.number {
+   background-color: #B488D5;
+}
+
+.operator {
+   background-color: #b391db;
+}
+
+.clear {
+   background-color: #c1b7dd;
+}
+
+.button:hover {
+   opacity: 0.8;
+}
