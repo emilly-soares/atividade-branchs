@@ -22,6 +22,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma Issue ou env
 ## Autor
 Feito por Emilly Soares 👋🏽 Entre em contato!🚀
 
-## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
